@@ -53,6 +53,11 @@ python tests/simtest.py SentryHeat/Scripts/main.lua   # smoke run: prints what t
 - The Machine War bonus is the sentry's `OutgoingDamageMultiplier` attribute, capped at 1.5 (+50 %). The skill's tooltip says up to 150 % bonus damage; the actual cap is 150 % of normal damage, and the mod shows the actual value.
 - Sentries are found when someone places one (the game's deployable HUD events), not by polling, so the mod costs about 0.05 ms per frame with none out.
 
+## Related mods
+
+- [Will's Mod Menu](https://github.com/Williscool13/WillsModMenu) ([Nexus](https://www.nexusmods.com/payday3/mods/505)): change this mod's settings in game.
+- [Meth Lab HUD](https://github.com/Williscool13/MethLabHUD) ([Nexus](https://www.nexusmods.com/payday3/mods/498)): meth lab status icon for Cook Off and Party Powder.
+
 ## License
 
 [MIT](LICENSE).
